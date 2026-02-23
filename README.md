@@ -7,22 +7,6 @@ Vite
 JavaScript (JSX)
 CSS 
 
-📁 Project Structure
-matcha/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── CanvasSequence.jsx   # Visual / animation logic
-│   │   ├── TextOverlay.jsx      # Overlay text on visuals
-│   │   ├── Sections.jsx         # Main UI sections
-│   │   └── NewSections.jsx      # Additional UI sections
-│   ├── App.jsx                  # Root component
-│   ├── index.css                # Global styles
-│   └── main.jsx                 # App entry point
-├── index.html
-├── package.json
-└── vite.config.js
-
 ✨ Features
 Coffee-themed modern UI
 Animated and visual sections
