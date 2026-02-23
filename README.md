@@ -64,12 +64,4 @@ npm install
 npm run dev
 3. Open in browser
 http://localhost:5173
-📌 Notes
 
-This is a UI-focused project only
-
-No backend, authentication, or database
-
-All data (if any) is static or mock-based
-
-dist folder and deployment configs are intentionally ignored
