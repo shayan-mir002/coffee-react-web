@@ -1,67 +1,41 @@
 ☕ Matcha – Coffee Website UI
+A frontend-only coffee website UI built with React + Vite, focused on smooth visuals, modern layout, and reusable UI components. No backend or database is used.
 
-A frontend-only coffee website UI built using React + Vite, focused on clean design, smooth animations, and reusable components.
-This project showcases modern UI sections like seasonal content, interactive menus, and presentation-focused layouts.
-
-🚀 Tech Stack
-
+🛠 Tech Stack
 React
-
 Vite
-
 JavaScript (JSX)
-
-CSS / Tailwind (if used)
-
-Frontend only (no backend, no database)
+CSS 
 
 📁 Project Structure
 matcha/
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── CanvasSequence.jsx
-│   │   ├── NewSections.jsx
-│   │   ├── Sections.jsx
-│   │   └── TextOverlay.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
+│   │   ├── CanvasSequence.jsx   # Visual / animation logic
+│   │   ├── TextOverlay.jsx      # Overlay text on visuals
+│   │   ├── Sections.jsx         # Main UI sections
+│   │   └── NewSections.jsx      # Additional UI sections
+│   ├── App.jsx                  # Root component
+│   ├── index.css                # Global styles
+│   └── main.jsx                 # App entry point
 ├── index.html
 ├── package.json
-├── package-lock.json
 └── vite.config.js
-🧩 Key Components
 
-CanvasSequence.jsx
-Handles animated or visual canvas-based sequences.
+✨ Features
+Coffee-themed modern UI
+Animated and visual sections
+Modular React components
+Responsive design
+Static / mock data only
 
-TextOverlay.jsx
-Displays text overlays on visual or animated sections.
-
-Sections.jsx / NewSections.jsx
-Main UI sections such as coffee content, layout blocks, or featured areas.
-
-App.jsx
-Root component that assembles all sections.
-
-🎨 Features
-
-Modern coffee-themed UI
-
-Modular and reusable components
-
-Smooth transitions and animations
-
-Responsive layout (desktop & mobile)
-
-Easy to extend with new sections
-
-▶️ Getting Started
-1. Install dependencies
+▶️ Run Locally
 npm install
-2. Run development server
 npm run dev
-3. Open in browser
-http://localhost:5173
+Open: http://localhost:5173
 
+📌 Notes
+Frontend only
+No backend, auth, or database
+Built for UI/UX showcase and experimentation
